@@ -13,6 +13,17 @@
 		B41F3D901DDD403A002865E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B41F3D8E1DDD403A002865E3 /* Main.storyboard */; };
 		B41F3D921DDD403A002865E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B41F3D911DDD403A002865E3 /* Assets.xcassets */; };
 		B41F3D951DDD403A002865E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B41F3D931DDD403A002865E3 /* LaunchScreen.storyboard */; };
+		B41F3D9E1DDD5D43002865E3 /* UIAlertView+Block.m in Sources */ = {isa = PBXBuildFile; fileRef = B41F3D9D1DDD5D43002865E3 /* UIAlertView+Block.m */; };
+		B41F3DBA1DDEA9BA002865E3 /* StatusView.m in Sources */ = {isa = PBXBuildFile; fileRef = B41F3DB91DDEA9BA002865E3 /* StatusView.m */; };
+		FB10868D1E9B20F400B8EC87 /* Icon-60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FB1086871E9B20F400B8EC87 /* Icon-60@2x.png */; };
+		FB10868E1E9B20F400B8EC87 /* Icon-60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = FB1086881E9B20F400B8EC87 /* Icon-60@3x.png */; };
+		FB10868F1E9B20F400B8EC87 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FB1086891E9B20F400B8EC87 /* Icon-Small@2x.png */; };
+		FB1086901E9B20F400B8EC87 /* Icon-Small@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = FB10868A1E9B20F400B8EC87 /* Icon-Small@3x.png */; };
+		FB1086911E9B20F400B8EC87 /* Icon-Spotlight-40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FB10868B1E9B20F400B8EC87 /* Icon-Spotlight-40@2x.png */; };
+		FB1086921E9B20F400B8EC87 /* Icon-Spotlight-40@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = FB10868C1E9B20F400B8EC87 /* Icon-Spotlight-40@3x.png */; };
+		FB1C94BB1F034C24009086C8 /* SuperViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB1C94BA1F034C24009086C8 /* SuperViewController.m */; };
+		FB34FE241EA8A1D70001A966 /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = FB34FE231EA8A1D70001A966 /* ViewController2.m */; };
+		FBFAED641E8A037500D69655 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBFAED631E8A037500D69655 /* WebViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +37,22 @@
 		B41F3D911DDD403A002865E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B41F3D941DDD403A002865E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B41F3D961DDD403A002865E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B41F3D9C1DDD5D43002865E3 /* UIAlertView+Block.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+Block.h"; sourceTree = "<group>"; };
+		B41F3D9D1DDD5D43002865E3 /* UIAlertView+Block.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+Block.m"; sourceTree = "<group>"; };
+		B41F3DB81DDEA9BA002865E3 /* StatusView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatusView.h; sourceTree = "<group>"; };
+		B41F3DB91DDEA9BA002865E3 /* StatusView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatusView.m; sourceTree = "<group>"; };
+		FB1086871E9B20F400B8EC87 /* Icon-60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60@2x.png"; sourceTree = "<group>"; };
+		FB1086881E9B20F400B8EC87 /* Icon-60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60@3x.png"; sourceTree = "<group>"; };
+		FB1086891E9B20F400B8EC87 /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
+		FB10868A1E9B20F400B8EC87 /* Icon-Small@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@3x.png"; sourceTree = "<group>"; };
+		FB10868B1E9B20F400B8EC87 /* Icon-Spotlight-40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Spotlight-40@2x.png"; sourceTree = "<group>"; };
+		FB10868C1E9B20F400B8EC87 /* Icon-Spotlight-40@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Spotlight-40@3x.png"; sourceTree = "<group>"; };
+		FB1C94B91F034C24009086C8 /* SuperViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuperViewController.h; sourceTree = "<group>"; };
+		FB1C94BA1F034C24009086C8 /* SuperViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuperViewController.m; sourceTree = "<group>"; };
+		FB34FE221EA8A1D70001A966 /* ViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController2.h; sourceTree = "<group>"; };
+		FB34FE231EA8A1D70001A966 /* ViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController2.m; sourceTree = "<group>"; };
+		FBFAED621E8A037500D69655 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		FBFAED631E8A037500D69655 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,9 +86,20 @@
 			isa = PBXGroup;
 			children = (
 				B41F3D881DDD403A002865E3 /* AppDelegate.h */,
+				FB1086861E9B20AC00B8EC87 /* icon */,
 				B41F3D891DDD403A002865E3 /* AppDelegate.m */,
+				FB1C94B91F034C24009086C8 /* SuperViewController.h */,
+				FB1C94BA1F034C24009086C8 /* SuperViewController.m */,
 				B41F3D8B1DDD403A002865E3 /* ViewController.h */,
 				B41F3D8C1DDD403A002865E3 /* ViewController.m */,
+				FB34FE221EA8A1D70001A966 /* ViewController2.h */,
+				FB34FE231EA8A1D70001A966 /* ViewController2.m */,
+				B41F3D9C1DDD5D43002865E3 /* UIAlertView+Block.h */,
+				B41F3D9D1DDD5D43002865E3 /* UIAlertView+Block.m */,
+				B41F3DB81DDEA9BA002865E3 /* StatusView.h */,
+				B41F3DB91DDEA9BA002865E3 /* StatusView.m */,
+				FBFAED621E8A037500D69655 /* WebViewController.h */,
+				FBFAED631E8A037500D69655 /* WebViewController.m */,
 				B41F3D8E1DDD403A002865E3 /* Main.storyboard */,
 				B41F3D911DDD403A002865E3 /* Assets.xcassets */,
 				B41F3D931DDD403A002865E3 /* LaunchScreen.storyboard */,
@@ -77,6 +115,19 @@
 				B41F3D861DDD403A002865E3 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FB1086861E9B20AC00B8EC87 /* icon */ = {
+			isa = PBXGroup;
+			children = (
+				FB1086871E9B20F400B8EC87 /* Icon-60@2x.png */,
+				FB1086881E9B20F400B8EC87 /* Icon-60@3x.png */,
+				FB1086891E9B20F400B8EC87 /* Icon-Small@2x.png */,
+				FB10868A1E9B20F400B8EC87 /* Icon-Small@3x.png */,
+				FB10868B1E9B20F400B8EC87 /* Icon-Spotlight-40@2x.png */,
+				FB10868C1E9B20F400B8EC87 /* Icon-Spotlight-40@3x.png */,
+			);
+			name = icon;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -110,7 +161,7 @@
 				TargetAttributes = {
 					B41F3D811DDD403A002865E3 = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = 9525NY95G3;
+						DevelopmentTeam = J49YK46675;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -139,8 +190,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				B41F3D951DDD403A002865E3 /* LaunchScreen.storyboard in Resources */,
+				FB1086921E9B20F400B8EC87 /* Icon-Spotlight-40@3x.png in Resources */,
+				FB10868E1E9B20F400B8EC87 /* Icon-60@3x.png in Resources */,
+				FB1086911E9B20F400B8EC87 /* Icon-Spotlight-40@2x.png in Resources */,
 				B41F3D921DDD403A002865E3 /* Assets.xcassets in Resources */,
+				FB10868F1E9B20F400B8EC87 /* Icon-Small@2x.png in Resources */,
 				B41F3D901DDD403A002865E3 /* Main.storyboard in Resources */,
+				FB1086901E9B20F400B8EC87 /* Icon-Small@3x.png in Resources */,
+				FB10868D1E9B20F400B8EC87 /* Icon-60@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,8 +208,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB34FE241EA8A1D70001A966 /* ViewController2.m in Sources */,
 				B41F3D8D1DDD403A002865E3 /* ViewController.m in Sources */,
+				FBFAED641E8A037500D69655 /* WebViewController.m in Sources */,
+				B41F3D9E1DDD5D43002865E3 /* UIAlertView+Block.m in Sources */,
+				B41F3DBA1DDEA9BA002865E3 /* StatusView.m in Sources */,
 				B41F3D8A1DDD403A002865E3 /* AppDelegate.m in Sources */,
+				FB1C94BB1F034C24009086C8 /* SuperViewController.m in Sources */,
 				B41F3D871DDD403A002865E3 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -271,11 +333,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 9525NY95G3;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = pc28/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.83830.pc28;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yunlife.pc28got;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -283,11 +350,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 9525NY95G3;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = pc28/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.83830.pc28;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yunlife.pc28got;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -310,6 +382,7 @@
 				B41F3D9B1DDD403A002865E3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

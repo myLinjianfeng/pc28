@@ -7,8 +7,19 @@
 //
 
 #import "AppDelegate.h"
+#import "UIAlertView+Block.h"
+#import "ViewController.h"
+
+// 设备全屏高
+#define SCREEN_FULL_HEIGHT  [[UIScreen mainScreen] bounds].size.height
+// 设备全屏宽
+#define SCREEN_FULL_WIDTH [[UIScreen mainScreen] bounds].size.width
+
 
 @interface AppDelegate ()
+{
+    BOOL  _isShow;
+}
 
 @end
 
@@ -16,15 +27,18 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    
+    self.window=[[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.backgroundColor=[UIColor whiteColor];
+    [self.window makeKeyAndVisible];
+    
+    UINavigationController *tab = [[UINavigationController alloc]initWithRootViewController:[[ViewController alloc]init]];
+    self.window.rootViewController = tab;
+    
     // Override point for customization after application launch.
     return YES;
 }
 
-
-- (void)applicationWillResignActive:(UIApplication *)application {
-    // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
-    // Use this method to pause ongoing tasks, disable timers, and invalidate graphics rendering callbacks. Games should use this method to pause the game.
-}
 
 
 - (void)applicationDidEnterBackground:(UIApplication *)application {
@@ -35,13 +49,56 @@
 
 - (void)applicationWillEnterForeground:(UIApplication *)application {
     // Called as part of the transition from the background to the active state; here you can undo many of the changes made on entering the background.
+
+    
 }
 
 
-- (void)applicationDidBecomeActive:(UIApplication *)application {
-    // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
+
+- (void)applicationWillResignActive:(UIApplication *)application
+
+{
+    
+    //盖上view
+    
+    UIView* view = [[UIView alloc] initWithFrame:CGRectMake(0, 0, SCREEN_FULL_WIDTH, SCREEN_FULL_HEIGHT)];
+    //添加手势
+    
+    UITapGestureRecognizer * tapGesture = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(event:)];
+    
+    //将手势添加到需要相应的view中去
+    [view addGestureRecognizer:tapGesture];
+    
+    //选择触发事件的方式（默认单机触发）
+    [tapGesture setNumberOfTapsRequired:3];
+    
+    
+    view.backgroundColor = [UIColor whiteColor];
+    
+    view.alpha = 1;
+    
+    view.tag = 1111;
+    
+    [[[UIApplication sharedApplication] keyWindow] addSubview:view];
+    
+    
+}
+#pragma mark 执行触发的方法
+
+- (void)event:(UITapGestureRecognizer *)gesture
+{
+    
+    UIView *view = gesture.view;
+    
+    [view removeFromSuperview];
 }
 
+
+- (void)applicationDidBecomeActive:(UIApplication *)application
+{
+
+    
+}
 
 - (void)applicationWillTerminate:(UIApplication *)application {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
